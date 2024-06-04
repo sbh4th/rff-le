@@ -14,35 +14,54 @@ svyset psu [pweight=perweight], strata(strata) vce(linearized) ///
 	singleunit(missing)
 	
 * recode gender
-gen male = (sex==1)
+gen male = (sex==1) if (sex!=7 & sex!=9)
+tab sex male, mis
 
 * age >=25
-gen age25 = (age>=25)
+gen age25 = (age>=25) if (age!=997 & age!=999)
+tab age25, mis
 
 * recode to age groups
 recode age (0/14 = 1 "<15") (15/24 = 2 "15-24") (25/34 = 3 "25-34") ///
   (35/44 = 4 "35-44") (45/54 = 5 "45-54") (55/64 = 6 "55-64") ///
-  (65/85 = 7 "65+"), gen(age8)
+  (65/85 = 7 "65+") (997 999 = .), gen(age8)
+tab age8
+
+* generate working-age population
+recode age8 (3/6 = 1) (7 = 0) (1 2 = .), gen(wa)
+label var wa "Working age?"
+label values wa ny
 	
 * recode education
-recode educ (0 = .) (101/204 = 1 "<HS") (301 302 = 2 "HS") ///
-  (401/403 = 3 "Some coll") (500/603 = 4 "Univ") ///
+recode educ (0 = .) (102/116 = 1 "<HS") (201 202 302 303 = 2 "HS") ///
+  (301 = 3 "Some coll") (400/505 = 4 "Univ") ///
   (997/999 = .), gen(educ4)
+tab educ educ4, mis
 
 recode educ4 (4 = 0 "No") (1/3 = 1 "Yes"), gen(univ)
 label var univ "Less than university education?"
 
-label define ny 0 "No" 1 "Yes"
+label define ny 0 "No" 1 "Yes", modify
 label values univ ny
+tab univ, mis
 
 
 * recode race and ethnicity
 gen nhw = 1 if racea==100 & hispyn==1
-replace  nhw=0 if (racea>100 & racea<970) | hispyn==2
+replace  nhw=0 if (racea>100 & racea<990) | hispyn==2
 
 
 label var nhw  "non-Hispanic white?"
 label values nhw ny
+tab nhw
+
+gen nhb = 1 if racea==200 & hispyn==1
+replace  nhb=0 if (racea !=100 & racea>200 & racea<990) | hispyn==2
+
+
+label var nhb  "non-Hispanic black?"
+label values nhb ny
+tab nhb
 
 
 * recode back pain
