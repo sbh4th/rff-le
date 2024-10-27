@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "writing/MORTAL-remarks.html",
+    "href": "writing/MORTAL-remarks.html",
+    "title": "",
+    "section": "",
+    "text": "MORTAL Remarks\n\nFirst, I’d like to thank the organizers for inviting me to be here and setting the stage for this session.\nAs many of you are aware, life expectancy at birth in the US has not only stagnated, but actually declined in recent years, even before the disaster of the COVID-19 epidemic. The reasons for the decline were not well understood at the time, though there was plenty of speculation.\nAnd I’d be shocked if you had not heard about one dominant explanation for the (pre-COVID) decline, and that is the rise in so-called ‘deaths of despair’. This was a compelling story told by the economists Anne Case and Angus Deaton, which analyzed mortality data and emphasized the simultaneous rise of drug overdoses, suicides, and alcohol-related deaths, but largely in the white population.\nThis has been a huge story, here featured in two high profile pieces in the New York Times, and a story that has largely centered on the idea that the decline in life expectancy was chiefly due to adverse experiences of low educated, middle aged white men and the disintegration of their economic opportunities in recent years. Case and Deaton also placed a lot of emphasis on deaths of despair as a response to the pain of declining opportunity, and it is worth noting that such an empathetic narrative was mostly absent during prior ‘epidemics’ that affected nonwhite populations.\nI’d like to raise 3 questions regarding the attention given to the story Case and Deaton are telling. First, does the basic pattern even exist? I think at this point there are many (some of whom are in this room) who would argue that the evidence for is, at best, inconsistent.\nThe second question is about the concept of ‘despair’. Case and Deaton more recently argued there is an ‘ocean’ of pain and mental health distress plaguing Americans without a university degree (BA). Yet the literature on this is somewhat mixed, and even if one accepts that self-reports of pain may be increasing, the increases seem small relative to the increases in mortality.\nHere I’m just showing some simple age-adjusted calculations for\nBut physical pain is also perhaps different, and has different antecedents, than psychological pain. Case and Deaton are keen to point out (rightly) that there is no objective marker for distress, but argue in\nMeasures like life expectancy are valuable in the sense of being easy to understand, but they measure a complex reality of causes, and can lend themselves to simplistic narratives, like ‘deaths of despair’. However, one can decompose differences and changes in life expectancy to help understand whether existing narratives are compelling explanations. We recently used a series of analyses decomposing the decline in life expectancy, but went beyond just population averages and looked at heterogeneity by race/ethnicity, gender, and causes of death. But what we found was hard to reconcile with the ‘deaths of despair’ narrative.\nNext, lets’ talk about race. Here I’m showing you the results of decomposing the decline in US life expectancy from 2014 to 2017, and the contribution of different causes of death by race/ethnicity for men. What we found was that, contrary to the ‘despair’ narrative, it was actually non-Hispanic black men, not non-Hispanic white men, who had experienced the largest decline in life expectancy during this period, a decline of 0.65 years, nearly double that of whites. Moreover, although opioid overdoses (included here as ‘unintentional poisoning’) contributed to the decline for all races, increases in homicide accounted for a larger share of the decline among blacks. Yet, homicide, which remains deeply connected to persistent systemic racism in the US, has been mostly ignored in the ‘deaths of despair’ narrative. In addition, you can see that suicide deaths, also featured prominently in the ‘despair’ narrative, made little contribution to life expectancy decline in any group.\nAnd for women it was also worth noting that non-Hispanic Asian and Pacific Islanders lost nearly as much life expectancy (0.23 years) as did white women, though this was not due to opioid overdoses. These complex and specific changes are hard to tie into a simple narrative about working class white men.\nFinally, it’s worth noting that the whole idea of death of despair as a phenomenon has been harder to reconcile with demographic changes in the overdose epidemic. Blacks and American Indian / Alaska Natives are now experiencing the greatest burden, and we won’t be able to take action to reduce these lost lives by adhering to outdated and incomplete narratives, even if they contain some grains of truth.\nTo sum up.\n\nWhile increases in mortality gaps for heart disease and cancer both contributed to the growing gap in mortality between education groups, it was the rise in deaths of despair among those with less than a bachelor’s degree that largely accounts for the widening of the all-cause mortality gap. (2020 book)"
+  },
+  {
+    "objectID": "mortal.html#power-of-simple-narratives",
+    "href": "mortal.html#power-of-simple-narratives",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "Power of simple narratives",
+    "text": "Power of simple narratives\n\n\n\nOur contribution was to link drug overdoses, suicides, and alcohol-related deaths, to note that all were rising together, that together they were afflicting mostly whites, and that, among that group, the long fall in total mortality had stopped or reversed. We also chose the collective label “deaths of despair,” which helped publicize the combined epidemic and emphasize that it included more than just drug overdose.\n\n\n\n\n\n\nSee Case and Deaton (2020) and Case and Deaton (2015)"
+  },
+  {
+    "objectID": "mortal.html#section",
+    "href": "mortal.html#section",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Is this narrative compelling?"
+  },
+  {
+    "objectID": "mortal.html#section-1",
+    "href": "mortal.html#section-1",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Artifact of selection?\nDue to ‘deaths of despair’?\nMechanisms?\n\n\n\n\n\nCase and Deaton (2023)"
+  },
+  {
+    "objectID": "mortal.html#section-2",
+    "href": "mortal.html#section-2",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Mortality increases largely confined to bottom 10th percentile of education.\nSelection bias likely explains some of the e25 gap increase.\n\n\n\n\n\nNovosad et al. (2022) See also Dowd and Hamoudi (2014)"
+  },
+  {
+    "objectID": "mortal.html#limited-evidence-for-deaths-of-despair",
+    "href": "mortal.html#limited-evidence-for-deaths-of-despair",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "Limited evidence for ‘deaths of despair’",
+    "text": "Limited evidence for ‘deaths of despair’\n\n\n\nNot aligned with cause-specific deaths by race, age, and place.\nWeak spatial and temporal correlations between drug, alcohol, and suicide deaths.\nDeclines in CVD also important for mortality slowdowns.\nOpioid overdose deaths largely responsible for trends.\n\n\n\n\n\n\nMehta et al. (2020) Harper et al. (2021) Simon and Masters (2021) Tilstra et al. (2021)"
+  },
+  {
+    "objectID": "mortal.html#section-3",
+    "href": "mortal.html#section-3",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Contributors to change in e0 2014-2017, by race and cause for men \n\n\nHarper et al. (2021)"
+  },
+  {
+    "objectID": "mortal.html#section-4",
+    "href": "mortal.html#section-4",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Much faster increases in opioid overdoses among Blacks and American Indian and Alaska Natives in recent years.\nCannot be chiefly explained by the loss of economic opportunities among NH whites.\n\n\n\n\n\n\n\n\nSource: Pew Research Center"
+  },
+  {
+    "objectID": "mortal.html#section-5",
+    "href": "mortal.html#section-5",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Geronimus et al. (2019)"
+  },
+  {
+    "objectID": "mortal.html#section-6",
+    "href": "mortal.html#section-6",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "CVD and cancers now part of the story?\n\n\n\n\n\nCase and Deaton (2023)"
+  },
+  {
+    "objectID": "mortal.html#section-7",
+    "href": "mortal.html#section-7",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "What about despair?"
+  },
+  {
+    "objectID": "mortal.html#consequences-of-vague-narratives",
+    "href": "mortal.html#consequences-of-vague-narratives",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "Consequences of vague narratives",
+    "text": "Consequences of vague narratives\n\n\n\nRising despair as fertile ground for abusive self-soothing…\n\n\n…broad consensus that [pain and despair] have been increasing for decades…\n\n\n…an ocean of pain and distress among less-educated Americans\n\n\n\n\n\n\nSee Case and Deaton (2022)"
+  },
+  {
+    "objectID": "mortal.html#section-8",
+    "href": "mortal.html#section-8",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Is this an ‘ocean’ of pain?\nCan it drive up mortality?\n\n\n\n\n\nSource: Author’s calculations of NHIS. See also Zajacova et al. (2021) and Cutler and Glaeser (2021)"
+  },
+  {
+    "objectID": "mortal.html#section-9",
+    "href": "mortal.html#section-9",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Similarly flat for ‘A little or some’ hopelessness.\nFew differences by race.\n\n\n\n\n\nSource: Author’s calculations of NHIS."
+  },
+  {
+    "objectID": "mortal.html#section-10",
+    "href": "mortal.html#section-10",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "What about disadvantage?"
+  },
+  {
+    "objectID": "mortal.html#section-11",
+    "href": "mortal.html#section-11",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "We propose a preliminary but plausible story in which cumulative disadvantage from one birth cohort to the next—in the labor market, in marriage and child outcomes, and in health—is triggered by progressively worsening labor market opportunities at the time of entry for whites with low levels of education.\n\n\n\n\n\n\nCase and Deaton (2017)"
+  },
+  {
+    "objectID": "mortal.html#section-12",
+    "href": "mortal.html#section-12",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Unemployment gaps have remained largely consistent\n\n\n\n\n\n\n\n\n\n\n\nSource: Federal Reserve Bank"
+  },
+  {
+    "objectID": "mortal.html#the-college-wage-premium-has-declined",
+    "href": "mortal.html#the-college-wage-premium-has-declined",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "The college wage premium has declined",
+    "text": "The college wage premium has declined\n\n\n\nHad risen since early 1980s.\nRapid growth at bottom of wage distribution since 2012.\nStronger for those under age 40.\n\n\n\n\n\n\n\n\nSource: Autor et al. (2023). Also see Aeppli and Wilmers (2022)"
+  },
+  {
+    "objectID": "mortal.html#parting-thoughts",
+    "href": "mortal.html#parting-thoughts",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "Parting thoughts",
+    "text": "Parting thoughts\n\n\n\nEconomic life is demonstrably worse for those without a BA.\nEvidence linking the ‘tangle of pathologies’ still limited.\nMore recent work by CD reflects some listening to critics.\nExcessive focus on narrative of ‘despair’ and disadvantage draws attention away from other important causes, interventions, and population groups."
+  },
+  {
+    "objectID": "mortal.html#section-13",
+    "href": "mortal.html#section-13",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "",
+    "text": "Questions?\nsam.harper@mcgill.ca"
+  },
+  {
+    "objectID": "mortal.html#references",
+    "href": "mortal.html#references",
+    "title": "Despair and Disadvantage: Some Questions",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\nAeppli C, Wilmers N. Rapid wage growth at the bottom has offset rising US inequality. Proceedings of the National Academy of Sciences. 2022 Oct;119(42):e2204305119.\n\n\nAutor D, Dube A, McGrew A. The Unexpected Compression: Competition at Work in the Low Wage Labor Market. Cambridge, MA: National Bureau of Economic Research; 2023 Mar p. w31010. Report No.: w31010.\n\n\nCase A, Deaton A. Rising morbidity and mortality in midlife among white non-Hispanic Americans in the 21st century. Proceedings of the National Academy of Sciences of the United States of America. 2015 Dec;112(49):15078–83.\n\n\nCase A, Deaton A. Mortality and morbidity in the 21st century. Brookings Papers on Economic Activity. 2017;2017:397–476.\n\n\nCase A, Deaton A. Deaths of despair and the future of capitalism. Princeton: Princeton university press; 2020.\n\n\nCase A, Deaton A. The Great Divide: Education, Despair, and Death. Annual Review of Economics. 2022 Aug;14(Volume 14, 2022):1–21.\n\n\nCase A, Deaton A. Accounting for the widening mortality gap between American adults with and without a BA. Washington, DC: Brookings Institution; 2023.\n\n\nCutler DM, Glaeser EL. When Innovation Goes Wrong: Technological Regress and the Opioid Epidemic. Journal of Economic Perspectives. 2021 Nov;35(4):171–96.\n\n\nDowd JB, Hamoudi A. Is life expectancy really falling for groups of low socio-economic status? Lagged selection bias and artefactual trends in mortality. International Journal of Epidemiology. 2014 Aug;43(4):983–8.\n\n\nGeronimus AT, Bound J, Waidmann TA, Rodriguez JM, Timpe B. Weathering, Drugs, and Whack-a-Mole: Fundamental and Proximate Causes of Widening Educational Inequity in U.S. Life Expectancy by Sex and Race, 1990–2015. Journal of Health and Social Behavior. 2019 Jun;60(2):222–39.\n\n\nHarper S, Riddell CA, King NB. Declining Life Expectancy in the United States: Missing the Trees for the Forest. Annual Review of Public Health. 2021;42(1):381–403.\n\n\nMehta NK, Abrams LR, Myrskylä M. US life expectancy stalls due to cardiovascular disease, not drug deaths. Proceedings of the National Academy of Sciences. 2020 Mar;117(13):6998–7000.\n\n\nNovosad P, Rafkin C, Asher S. Mortality Change among Less Educated Americans. American Economic Journal: Applied Economics. 2022 Oct;14(4):1–34.\n\n\nSimon DH, Masters RK. DO DEATHS OF DESPAIR MOVE TOGETHER? COUNTY-LEVEL MORTALITY CHANGES BY SEX AND URBANIZATION, 1990–2017. American Journal of Epidemiology. 2021 Jun;190(6):1169–71.\n\n\nTilstra AM, Simon DH, Masters RK. Trends in \"Deaths of Despair\" Among Working-Aged White and Black Americans, 1990-2017. American Journal of Epidemiology. 2021 Sep;190(9):1751–9.\n\n\nZajacova A, Grol-Prokopczyk H, Zimmer Z. Pain Trends Among American Adults, 2002–2018: Patterns, Disparities, and Correlates. Demography. 2021 Apr;58(2):711–38."
+  }
+]
