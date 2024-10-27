@@ -7,7 +7,7 @@ log using nhis-pain.txt, replace text
 
 
 * load NHIS data
-use "nhis_00017.dta", clear
+use "nhis_00020.dta", clear
 
 
 * set survey design
@@ -89,7 +89,7 @@ label var lbpain "Low back pain past 3 months?"
 label values lbpain ny
 
 * estimate prevalence in each year
-* svy linearized : logit lbpain i.year
+svy linearized : logit lbpain i.year
 
 * marginal probabilities
 margins year, vce(unconditional)
