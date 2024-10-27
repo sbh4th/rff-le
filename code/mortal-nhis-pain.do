@@ -3,11 +3,12 @@ log using nhis-pain.txt, replace text
 
 //  program:    nhis-pain.do
 //  task:		produce estimates of pain trends
-//  author:     sam harper \ 16feb2015
+//  author:     sam harper \ 2024-06-06
 
 
 * load NHIS data
-use "ihis_00011.dta", clear
+use "nhis_00017.dta", clear
+
 
 * set survey design
 svyset psu [pweight=perweight], strata(strata) vce(linearized) ///
@@ -21,11 +22,18 @@ tab sex male, mis
 gen age25 = (age>=25) if (age!=997 & age!=999)
 tab age25, mis
 
+gen age2574 = age if (age>=25 & age<75 & age!=997 & age!=999)
+
 * recode to age groups
 recode age (0/14 = 1 "<15") (15/24 = 2 "15-24") (25/34 = 3 "25-34") ///
   (35/44 = 4 "35-44") (45/54 = 5 "45-54") (55/64 = 6 "55-64") ///
   (65/85 = 7 "65+") (997 999 = .), gen(age8)
 tab age8
+
+* groups over 25
+recode age2574 (25/34 = 1 "25-34") ///
+  (35/44 = 2 "35-44") (45/54 = 3 "45-54") (55/64 = 4 "55-64") ///
+  (65/85 = 5 "65-74"), gen(age25cat)
 
 * generate working-age population
 recode age8 (3/6 = 1) (7 = 0) (1 2 = .), gen(wa)
@@ -38,12 +46,15 @@ recode educ (0 = .) (102/116 = 1 "<HS") (201 202 302 303 = 2 "HS") ///
   (997/999 = .), gen(educ4)
 tab educ educ4, mis
 
-recode educ4 (4 = 0 "No") (1/3 = 1 "Yes"), gen(univ)
-label var univ "Less than university education?"
+recode educ4 (4 = 0 "No") (1/3 = 1 "Yes"), gen(nouni)
+label var nouni "Less than university education?"
 
 label define ny 0 "No" 1 "Yes", modify
-label values univ ny
-tab univ, mis
+label values nouni ny
+tab nouni, mis
+
+recode educ (102/116 = 1 "<HS") (201 = 2 "HS Grad") (202 302 303 = 3 "GED/Assoc") (301 = 4 "Some college") (400 = 5 "BA") (501/505 = 6 ">BA") (0 997/999 = .), gen(educ6)
+tab educ educ6
 
 
 * recode race and ethnicity
@@ -62,6 +73,12 @@ replace  nhb=0 if (racea !=100 & racea>200 & racea<990) | hispyn==2
 label var nhb  "non-Hispanic black?"
 label values nhb ny
 tab nhb
+
+* collapse to 3-year averages
+egen year3 = cut(year), at(2001(3)2024) icodes
+bysort year3: sum(year)
+replace year3 = . if year3 == 6
+
 
 
 * recode back pain
@@ -111,11 +128,23 @@ label values anypain ny
 * non-Hispanic white adults
 gen nhwadults = (age25==1 & nhw==1)
 
+recode ahopeless (6/9 = .) (0 = 1 "None") ///
+  (1/2 = 2 "Little/Some") ///
+  (3/4 = 3 "Most/All"), gen(hope30d)
+label var hope30d "Past month hopelessness"
+
+recode hope30d (1 = 0) (2/3 = 1), gen(anyhopeless)
+label var anyhopeless "Any hopelessness past 30d"
+label values anyhopeless ny
+
+gen hopeless = (hope30d==3)
+label var hopeless "Hopeless most/all time past month"
+
 * estimate prevalence in each year, by gender
 
-foreach var of varlist lbpain npain fpain anypain {
-  qui svy linearized, subpop(nhwadults): logit `var' male##univ##year3
-  margins male#univ#year3, nofvlabel post
+foreach var of varlist lbpain npain fpain anypain hopeless {
+  qui svy linearized, subpop(nhwadults): logit `var' male##nouni##year3
+  margins male#nouni#year3, nofvlabel post
   
   *write marginal estimates to a dataset
   preserve
