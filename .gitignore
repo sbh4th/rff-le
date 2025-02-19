@@ -48,3 +48,5 @@ rsconnect/
 data/nhis_00017.dta
 
 /.quarto/
+
+docs/.DS_Store
