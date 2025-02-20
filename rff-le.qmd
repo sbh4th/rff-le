@@ -63,35 +63,30 @@ See @case2020 and @case2015
 <br>
 
 ### 1. Gender
-<br>
-
 ### 2. Race
-<br>
-
 ### 3. Socioeconomic position
-<br>
-
 ### 4. Rurality
-<br>
-
 ### 5. State
 
 ## Dimensions of US Health Inequalities
 
 <br>
 
-### [1. Gender]{.gray}
-<br>
-
-### 2. Race
-<br>
-
+### [1. Gender]{.blue}
+### [2. Race]{.gray}
 ### [3. Socioeconomic position]{.gray}
-<br>
-
 ### [4. Rurality]{.gray}
+### [5. State]{.gray}
+
+
+## Dimensions of US Health Inequalities
+
 <br>
 
+### [1. Gender]{.gray}
+### [2. Race]{.blue}
+### [3. Socioeconomic position]{.gray}
+### [4. Rurality]{.gray}
 ### [5. State]{.gray}
 
 ## 
