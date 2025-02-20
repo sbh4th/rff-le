@@ -12,6 +12,7 @@ format:
     height: 788
     slide-number: true
     html-math-method: mathjax
+    chalkboard: true
     # embed-resources: true
 editor: source
 bibliography: writing/rff-le.bib
@@ -42,6 +43,31 @@ stheme <- theme_classic() + theme(plot.title = element_text(size = 18, face = "b
 @harper2021
 :::
 
+##
+![](images/life-expectancy-at-birth-in-years-1980-2023.png){width="80%" fig-align="center"}
+
+::: aside
+Source: [Peterson-KFF](https://www.healthsystemtracker.org/chart-collection/u-s-life-expectancy-compare-countries/)
+:::
+
+##
+![](images/woolf-jama-2024.png){fig-align="center"}
+
+::: aside
+@woolf2024
+:::
+
+## {background-image="images/woolf-jama-2024.png" background-opacity=0.25 background-size="85%"}
+
+<br>
+<br>
+
+### ["Something systemic to the US is limiting survival. Identifying the cause(s) and enacting social protection policies are urgent."]{.blue}
+
+::: aside
+@woolf2024
+:::
+
 ## Power of simple narratives
 ::: columns
 ::: {.column width="70%"}
@@ -56,6 +82,49 @@ stheme <- theme_classic() + theme(plot.title = element_text(size = 18, face = "b
 
 ::: aside
 See @case2020 and @case2015
+:::
+
+##
+
+::: columns
+::: {.column width="50%"}
+![](images/leonhardt-nyt-2020.png)
+
+<br>
+
+- Focus on low educated, rural, middle aged white men
+- Emphasis on pain and disintegration of economic opportunties
+
+:::
+
+::: {.column width="50%"}
+![](images/hochschild-nyt-2020.png)
+:::
+
+:::
+
+##
+::: columns
+::: {.column width="45%"}
+
+- Narratives about inequalities are opportunities for investigation.
+- Theories must be reconciled with plausible links to population patterns of exposure.
+- Population subgroups are useful case studies.
+
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="50%"}
+![](images/harper-2021.png){width=90%}
+:::
+
+:::
+
+::: aside
+@Harper:2021aa
 :::
 
 ## Dimensions of US Health Inequalities
@@ -90,11 +159,17 @@ See @case2020 and @case2015
 ### [5. State]{.gray}
 
 ## 
+::: {style="text-align: center;"}
 Trends in life expectancy for blacks and whites
+:::
 
-![](images/le-trends-bw.png){fig-align="center"}
+![](images/le-trends-bw.png){width="80%" fig-align="center"}
 
-## {background-image="images/le-trends-bw.png" background-opacity=0.25}
+::: aside
+Source: US National Center for Health Statistics
+:::
+
+## {background-image="images/le-trends-bw.png" background-opacity=0.25 background-size="85%"}
 
 <br>
 <br>
@@ -103,19 +178,29 @@ Trends in life expectancy for blacks and whites
 John Dorschner, Miami Herald, 2004
 
 ## 
+::: {style="text-align: center;"}
 The "gap" has varied over the years (especially for men)
+:::
 
-![](images/le-trends-bw-gap.png){fig-align="center"}
+![](images/le-trends-bw-gap.png){width="80%" fig-align="center"}
 
-## 
+::: aside
+Source: US National Center for Health Statistics
+:::
+
+## Why does the gap go up and down?
 
 ::: columns
 ::: {.column width="50%"}
-Why does it go up and down?
 
-Decomposition by cause of death
+<br>
 
-Link specific causes-of-death to potential determinants
+- Decomposition by cause of death
+
+- Link specific causes-of-death to potential determinants
+
+- General or specific?
+
 :::
 
 ::: {.column width="50%"}
@@ -129,9 +214,12 @@ Link specific causes-of-death to potential determinants
 :::
 
 ## 
+
 ::: columns
 ::: {.column width="50%"}
 97% of increase in the gap for men due to just 3 'causes':
+
+<br>
 
 - HIV
 - Homicide (start of crack epidemic)
@@ -144,6 +232,7 @@ Link specific causes-of-death to potential determinants
 
 :::
 
+
 ::: aside
 @harper2007a
 :::
@@ -152,6 +241,8 @@ Link specific causes-of-death to potential determinants
 ::: columns
 ::: {.column width="50%"}
 70% of decline in the gap for men due to just 3 'causes':
+
+<br>
 
 - HIV (HAART therapy)
 - Homicide (waning crack epidemic)
@@ -171,32 +262,64 @@ Link specific causes-of-death to potential determinants
 ##
 ![](images/harper-2007-fig-w.png){fig-align="center"}
 
+## {auto-animate=true .nostretch}
+
+![](images/life-expectancy-at-birth-in-years-1980-2023.png){width="80%" fig-align="center"}
+
+## {auto-animate=true}
+
+![](images/us-le-zoom.png){fig-align="center"}
+
 ##
 
-::: columns
-::: {.column width="50%"}
-![](images/leonhardt-nyt-2020.png)
-
-<br>
-
-- Focus on low educated, rural, middle aged white men
-- Emphasis on pain and disintegration of economic opportunties
-
+::: {style="text-align: center;"}
+Years of LE lost 2014-2017, by gender, race, and cause
 :::
 
-::: {.column width="50%"}
-![](images/hochschild-nyt-2020.png)
+![](images/harper-decomp-2021-m.png)
+
+::: aside
+@harper2021
 :::
 
+## {background-image="images/harper-decomp-2021-m.png" background-opacity=0.25 background-size="85%"}
+
+- All racial groups lost years.
+
+- Largest for blacks.
+
+- Little contribution from alcohol or suicide.
+
+- Most of the story is opioids.
+
+##
+
+::: {style="text-align: center;"}
+Years of LE lost 2014-2017, by gender, race, and cause
 :::
+
+![](images/harper-decomp-2021-w.png){width="110%"}
+
+::: aside
+@harper2021
+:::
+
+## {background-image="images/harper-decomp-2021-w.png" background-opacity=0.25 background-size="85%"}
+
+- Fewer years lost, uneven by race.
+
+- Opioids for white and black women.
+
+- More deaths from Alzheimer's disease.
 
 ##
 ::: columns
 ::: {.column width="45%"}
 
-- Narratives about inequalities are opportunities for investigation.
-- Theories must be reconciled with plausible links to population patterns of exposure.
-- We 'decomposed' the recent life expectancy decline.
+- Much faster increases in opioid overdoses among Blacks *and* American Indian and Alaska Natives in recent years.
+
+- Cannot be chiefly explained by the loss of economic opportunities among rural white men.
+
 
 :::
 
@@ -205,31 +328,24 @@ Link specific causes-of-death to potential determinants
 :::
 
 ::: {.column width="50%"}
-![](images/harper-2021.png){width=90%}
+![](images/pew-2022.png)
 :::
 
 :::
 
 ::: aside
-@Harper:2021aa
+Source: [Pew Research Center](https://www.pewresearch.org/short-reads/2022/01/19/recent-surge-in-u-s-drug-overdose-deaths-has-hit-black-men-the-hardest/ft_22-01-12_drugoverdoses_1/)
 :::
+
 
 ## Dimensions of US Health Inequalities
 
 <br>
 
 ### [1. Gender]{.gray}
-<br>
-
 ### [2. Race]{.gray}
-<br>
-
 ### [3. Socioeconomic position]{.blue}
-<br>
-
 ### [4. Rurality]{.gray}
-<br>
-
 ### [5. State]{.gray}
 
 ## 
@@ -347,6 +463,31 @@ Reduced YLL among those with university degrees
 @sasson2019
 :::
 
+##
+![](/images/geronimus-decomp.png)
+
+::: aside
+@geronimus2019
+:::
+
+##
+::: columns
+::: {.column width="30%"}
+
+CVD and cancers now part of the story?
+
+:::
+
+::: {.column width="70%"}
+![](/images/case-deaton-counterfactual.png)
+:::
+
+:::
+
+::: aside
+@case2023
+:::
+
 ## Dimensions of US Health Inequalities
 
 <br>
@@ -413,47 +554,6 @@ Ignores large (growing) impact of CVD.
 
 ::: aside
 Source: Author's calculations.
-:::
-
-##
-Years of life lost 2014-2017, by gender, race, and cause
-![](images/harper-decomp-2021-m.png)
-
-::: aside
-@Harper:2021aa
-:::
-
-##
-Years of life lost 2014-2017, by gender, race, and cause
-![](images/harper-decomp-2021-w.png){width="110%"}
-
-::: aside
-@Harper:2021
-:::
-
-##
-::: columns
-::: {.column width="45%"}
-
-- Much faster increases in opioid overdoses among Blacks *and* American Indian and Alaska Natives in recent years.
-
-- Cannot be chiefly explained by the loss of economic opportunities among rural white men.
-
-
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="50%"}
-![](images/pew-2022.png)
-:::
-
-:::
-
-::: aside
-Source: [Pew Research Center](https://www.pewresearch.org/short-reads/2022/01/19/recent-surge-in-u-s-drug-overdose-deaths-has-hit-black-men-the-hardest/ft_22-01-12_drugoverdoses_1/)
 :::
 
 ## {.center}
