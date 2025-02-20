@@ -293,7 +293,7 @@ Source: US National Center for Health Statistics
 
 - HIV (HAART therapy)
 - Homicide (waning crack epidemic)
-- Drugs (start of opioid epidemic)
+- Drugs (start of opioid epidemic...for whites)
 :::
 
 ::: {.column width="50%"}
@@ -506,7 +506,7 @@ Similar for middle educated
 
 - More opioids
 
-- Improvements in CVD
+- Improving CVD
 :::
 
 ::: {.column width="80%"}
@@ -532,7 +532,14 @@ Reduced YLL among those with university degrees
 ::: columns
 ::: {.column width="30%"}
 
-CVD and cancers now part of the story?
+Holding DoD, cancers and CVD at 1992 levels, gap sill increases (at lower level)
+
+<br>
+
+Now these are part of the story?
+
+
+
 
 :::
 
@@ -593,7 +600,7 @@ Source: Author's calculations.
 
 <br>
 
-Impact varies by 'phase' of epidemic
+Impact on rural areas varies by 'phase' of epidemic
 
 :::
 
@@ -660,7 +667,7 @@ Regional differences in kinds of 'despair'
 ## {.center}
 
 :::{#title-slide .center}
-### Is this narrative compelling?
+### Can any general narrative explain all of this heterogeneity?
 :::
 
 
