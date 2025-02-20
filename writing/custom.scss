@@ -3,10 +3,11 @@
 // fonts
 $font-family-sans-serif: "Lucida Sans", serif !default;
 
-$theme-blue: #0000ff;
+$theme-blue: #2a76dd;
 $theme-red: #ff0000;
 $theme-gray: #cccccc;
 $theme-white: #ffffff;
+$theme-orange: #f5bc6c;
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
@@ -20,6 +21,10 @@ $font-family: 'Allura', cursive;
 
 .red {
   color: $theme-red;
+}
+
+.orange {
+  color: $theme-orange;
 }
 
 .gray {
