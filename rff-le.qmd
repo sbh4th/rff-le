@@ -539,12 +539,6 @@ Reduced YLL among those with university degrees
 @sasson2019
 :::
 
-##
-![](/images/geronimus-decomp.png)
-
-::: aside
-@geronimus2019
-:::
 
 ##
 ::: columns
