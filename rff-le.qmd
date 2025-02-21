@@ -330,6 +330,11 @@ Source: US National Center for Health Statistics
 
 ![](images/us-le-zoom.png){fig-align="center"}
 
+
+## {background-image="images/us-le-zoom.png" background-opacity=0.25 background-size="85%"}
+
+### Unprecedented *three* consecutive years of life expectancy declines for the nation.
+
 ##
 
 ::: {style="text-align: center;"}
