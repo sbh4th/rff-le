@@ -12,8 +12,8 @@ format:
     height: 788
     slide-number: true
     html-math-method: mathjax
-    chalkboard: true
-    # embed-resources: true
+    chalkboard: false
+    embed-resources: true
 editor: source
 bibliography: writing/rff-le.bib
 csl: writing/vancouver-author-date.csl
