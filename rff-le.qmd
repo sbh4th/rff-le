@@ -675,6 +675,29 @@ Regional differences in kinds of 'despair'
 @harper2021
 :::
 
+##
+
+::: columns
+::: {.column width="20%"}
+
+<br>
+
+<br>
+
+More heterogeneity by sex, race, and place
+
+:::
+
+::: {.column width="80%"}
+![](images/riddell-gap-men.png){width="80%"}
+:::
+
+:::
+
+::: aside
+@riddell2018
+:::
+
 
 ## Can DoD explain this heterogeneity?
 ::: columns
