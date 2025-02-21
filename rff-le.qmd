@@ -8,12 +8,13 @@ date-format: iso
 format: 
   revealjs:
     theme: [default, writing/custom.scss]
+    # css: writing/fonts.css
     width: 1400
     height: 788
     slide-number: true
     html-math-method: mathjax
     chalkboard: false
-    embed-resources: true
+    embed-resources: false
 editor: source
 bibliography: writing/rff-le.bib
 csl: writing/vancouver-author-date.csl
