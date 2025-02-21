@@ -150,6 +150,18 @@ See @case2020 and @case2015
 ##
 
 ::: {style="text-align: center;"}
+Postwar divergence, then convergence
+:::
+
+![](images/us-le-gender.png){width="75%" fig-align="center"}
+
+::: aside
+Source: US National Center for Health Statistics
+:::
+
+##
+
+::: {style="text-align: center;"}
 After years of declines, disadvantage for men now increasing
 :::
 
@@ -664,10 +676,24 @@ Regional differences in kinds of 'despair'
 :::
 
 
-## {.center}
+## Can DoD explain this heterogeneity?
+::: columns
+::: {.column width="70%"}
+> Rising despair as fertile ground for abusive self-soothing...
 
-:::{#title-slide .center}
-### Can any general narrative explain all of this heterogeneity?
+> ...broad consensus that [pain and despair] have been increasing for decades...
+
+> ...an ocean of pain and distress among less-educated Americans
+:::
+
+::: {.column width="30%"}
+![](/images/case-2022.png){width="100%"}
+:::
+
+:::
+
+::: aside
+See @case2022
 :::
 
 
