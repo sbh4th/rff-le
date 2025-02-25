@@ -7,8 +7,8 @@ date: 2025-02-21
 date-format: iso
 format: 
   revealjs:
-    theme: [default, writing/custom.scss]
-    # css: writing/fonts.css
+    theme: [default, custom.scss]
+    css: fonts.css
     width: 1400
     height: 788
     slide-number: true
@@ -16,8 +16,8 @@ format:
     chalkboard: false
     embed-resources: false
 editor: source
-bibliography: writing/rff-le.bib
-csl: writing/vancouver-author-date.csl
+bibliography: rff-le.bib
+csl: vancouver-author-date.csl
 # filters:
 #  - parse-latex
 ---
